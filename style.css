@@ -34,6 +34,10 @@ div.content {
   border: 2px dashed blue;
 }
 
+div.body {
+  border: 1px solid black;
+}
+
 p {
   font-family: 'H', 'Trebuchet MS', Helvetica;
   margin-block-start: 1em;
