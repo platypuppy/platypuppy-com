@@ -39,6 +39,13 @@ div.body {
   border: 1px solid black;
 }
 
+div.text {
+  border: 1px dashed grey;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-left: 1em;
+}
+
 p {
   font-family: 'H', 'Trebuchet MS', Helvetica;
   margin-block-start: 1em;
