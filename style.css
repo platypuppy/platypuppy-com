@@ -2,6 +2,6 @@ body {
   background-color: green;
 }
 
-div {
+div.test {
   background-color: blue;
 }
