@@ -4,5 +4,5 @@ body {
 
 div.test {
   background-color: blue;
-  border: 3px dashed purple;
+  border: 3px dashed purple rounded;
 }
