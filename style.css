@@ -30,17 +30,18 @@ div.header {
 
 div.files {
   float: left;
-  width: 5em;
+  width: 7em;
   border: 3px solid grey;
 }
 
 div.content {
   border: 2px dashed blue;
-  margin-left: 5.6em;
+  margin-left: 7.6em;
 }
 
 div.body {
   border: 1px solid black;
+  display: flex;
 }
 
 div.text {
