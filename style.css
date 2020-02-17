@@ -29,14 +29,15 @@ div.header {
 }
 
 div.files {
-  float: left;
   width: 7em;
   border: 3px solid grey;
+  flex-grow: 1;
 }
 
 div.content {
   border: 2px dashed blue;
   margin-left: .2em;
+  flex-grow: 10;
 }
 
 div.body {
