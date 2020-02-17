@@ -12,6 +12,11 @@ h1 {
   margin-left: .25em;
 }
 
+a.silent {
+  text-decoration: none;
+  color: black;
+}
+
 div {
   margin-block-start: .1em;
   margin-block-end: .1em;
@@ -34,6 +39,14 @@ div.files {
   flex-grow: 1;
 }
 
+div.filesContent {
+  border: 1px dashed grey;
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
 div.content {
   border: 2px dashed blue;
   margin-left: .2em;
@@ -47,16 +60,29 @@ div.body {
 
 div.text {
   border: 1px dashed grey;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
   margin-left: 1em;
   margin-right: 1em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+div.indent {
+  margin-left: 1em;
+  border: 1px dashed blue;
 }
 
 p {
-  margin-block-start: 1em;
-  margin-block-end: 1em;
   margin-left: 1em;
+  margin-right: 1em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+p.clean {
+  margin-left: 0em;
+  margin-right: 0em;
+  margin-top: .5em;
+  margin-bottom: 0em;
 }
 
 p.mono {
