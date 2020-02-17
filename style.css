@@ -4,5 +4,9 @@ body {
 
 div.test {
   background-color: blue;
-  border: 3px dashed purple rounded;
+  border: 3px dashed purple;
+}
+
+p.mono {
+  font: consalas;
 }
