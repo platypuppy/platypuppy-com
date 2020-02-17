@@ -9,6 +9,9 @@ div.test {
 
 p {
   font-family: 'H', 'Trebuchet MS', Helvetica;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-left: 1em;
 }
 
 p.mono {
