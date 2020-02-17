@@ -3,6 +3,7 @@ body {
 }
 
 h1 {
+  font-family: 'H', 'Trebuchet MS', Helvetica;
   margin-block-start: 1em;
   margin-block-end: 1em;
   margin-left: 1em;
@@ -11,6 +12,10 @@ h1 {
 div.test {
   background-color: blue;
   border: 3px dashed purple;
+}
+
+div.header {
+  border: 3px solid grey;
 }
 
 p {
