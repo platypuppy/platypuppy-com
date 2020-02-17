@@ -24,6 +24,11 @@ div.header {
   border: 3px solid grey;
 }
 
+div.files {
+  float: left;
+  width: 20em;
+}
+
 p {
   font-family: 'H', 'Trebuchet MS', Helvetica;
   margin-block-start: 1em;
