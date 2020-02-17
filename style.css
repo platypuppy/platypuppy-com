@@ -7,6 +7,10 @@ div.test {
   border: 3px dashed purple;
 }
 
+p {
+  font-family: 'H', 'Trebuchet MS', Helvetica;
+}
+
 p.mono {
   font-family: Courier;
 }
