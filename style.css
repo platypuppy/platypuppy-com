@@ -1,9 +1,12 @@
+html {
+  font-family: 'H', 'Trebuchet MS', Helvetica;
+}
+
 body {
   background-color: green;
 }
 
 h1 {
-  font-family: 'H', 'Trebuchet MS', Helvetica;
   margin-block-start: .25em;
   margin-block-end: .25em;
   margin-left: .25em;
@@ -32,7 +35,7 @@ div.files {
 
 div.content {
   border: 2px dashed blue;
-  margin-left: 5.3em;
+  margin-left: 5.5em;
 }
 
 div.body {
@@ -47,7 +50,6 @@ div.text {
 }
 
 p {
-  font-family: 'H', 'Trebuchet MS', Helvetica;
   margin-block-start: 1em;
   margin-block-end: 1em;
   margin-left: 1em;
