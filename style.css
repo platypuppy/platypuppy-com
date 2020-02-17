@@ -9,6 +9,12 @@ h1 {
   margin-left: .25em;
 }
 
+div {
+  margin-block-start: .1em;
+  margin-block-end: .1em;
+  margin-left: .1em;
+}
+
 div.test {
   background-color: blue;
   border: 3px dashed purple;
