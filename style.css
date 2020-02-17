@@ -26,7 +26,12 @@ div.header {
 
 div.files {
   float: left;
-  width: 20em;
+  width: 5em;
+  border: 3px solid grey;
+}
+
+div.content {
+  border: 2px dashed blue;
 }
 
 p {
