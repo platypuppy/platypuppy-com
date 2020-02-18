@@ -3,7 +3,8 @@ html {
 }
 
 body {
-  background-color: green;
+  background-color: black;
+  color: white;
 }
 
 h1 {
@@ -12,12 +13,19 @@ h1 {
   margin-left: .25em;
 }
 
+h2 {
+  margin-block-start: .25em;
+  margin-block-end: .25em;
+  margin-left: .25em;
+}
+
 a.silent {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 div {
+/*  border: 1px dashed grey;*/
   margin-block-start: .1em;
   margin-block-end: .1em;
   margin-left: .1em;
@@ -26,7 +34,7 @@ div {
 
 div.test {
   background-color: blue;
-  border: 3px dashed purple;
+/*  border: 3px dashed purple;*/
 }
 
 div.header {
@@ -40,7 +48,6 @@ div.files {
 }
 
 div.filesContent {
-  border: 1px dashed grey;
   margin-left: 1em;
   margin-right: 1em;
   margin-top: 1em;
@@ -48,18 +55,17 @@ div.filesContent {
 }
 
 div.content {
-  border: 2px dashed blue;
+/*  border: 2px dashed blue;*/
   margin-left: .2em;
   flex-grow: 10;
 }
 
 div.body {
-  border: 1px solid black;
+/*  border: 1px solid black;*/
   display: flex;
 }
 
 div.text {
-  border: 1px dashed grey;
   margin-left: 1em;
   margin-right: 1em;
   margin-top: 1em;
@@ -68,7 +74,7 @@ div.text {
 
 div.indent {
   margin-left: 1em;
-  border: 1px dashed blue;
+/*  border: 1px dashed blue;*/
 }
 
 p {
@@ -87,4 +93,15 @@ p.clean {
 
 p.mono {
   font-family: Courier, monospace;
+}
+
+p.list {
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-top: 0em;
+  margin-bottom: .25em;
+}
+
+p.listHeader {
+  margin-bottom: .25em;
 }
