@@ -43,7 +43,7 @@ div.header {
 }
 
 div.files {
-  width: 7em;
+  width: 10em;
   border: 3px solid grey;
   flex-grow: 1;
 }
