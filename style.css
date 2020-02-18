@@ -20,6 +20,7 @@ h2 {
 }
 
 a.silent {
+  margin-left: .5em;
   text-decoration: none;
   color: white;
 }
@@ -74,7 +75,12 @@ div.text {
 
 div.indent {
   margin-left: 1em;
+  border-left: 1px solid grey;
 /*  border: 1px dashed blue;*/
+}
+
+div.block {
+  border: 2px solid grey;
 }
 
 p {
@@ -84,8 +90,15 @@ p {
   margin-bottom: 1em;
 }
 
-p.clean {
+p.cleanH {
   margin-left: 0em;
+  margin-right: 0em;
+  margin-top: .5em;
+  margin-bottom: 0em;
+}
+
+p.clean {
+  margin-left: .25em;
   margin-right: 0em;
   margin-top: .5em;
   margin-bottom: 0em;
@@ -104,4 +117,25 @@ p.list {
 
 p.listHeader {
   margin-bottom: .25em;
+}
+
+p.tableContent {
+  margin-left: .25em;
+  margin-right: .25em;
+  margin-top: .25em;
+  margin-bottom: .25em;
+  
+}
+
+p.center {
+  text-align: center;
+}
+
+p.spoiler {
+  color: black;
+}
+
+table.table {
+  border: 2px solid grey;
+  margin-left: .75em;
 }
